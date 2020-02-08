@@ -63,3 +63,13 @@ body{
 .previous:hover, .next:hover{color: white; background: rgba(0,0,0,0.5)}
 .previous{ left: 5px;}
 .next{ right: 5px;}
+
+.slide-links{
+	color: rgba(255, 255, 255, 0.3);
+	border: none;
+	background: transparent;
+	font-size: calc(110% + 1vh);
+}
+.active{
+	color: white;
+}
