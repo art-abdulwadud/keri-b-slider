@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+	font-family: 'Lemonada', cursive;
+	font-size: calc(110% + 4vh);
+	border: 1px solid transparent;
+	background: #6a3093;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #a044ff, #6a3093);
+    background: linear-gradient(to bottom, #a044ff, #6a3093);
+	max-width: 400px;
+	color: orange;
+	border-radius: 5px;
+}
