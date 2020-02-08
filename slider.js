@@ -15,3 +15,9 @@ const activateSlide = slide => {
 }
 
 activateSlide(slideIndex)
+// Function for moving either to next or previous image
+const slideMove = slide => {
+	activateSlide(slideIndex += slide)
+};
+
+
