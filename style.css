@@ -80,8 +80,8 @@ body{
 }
 
 @-webkit-keyframes animate{
-	from{background: rgba(211,131,18, 0.8);}
+	from{background: rgba(211,131,18, 0.9);}
 }
 @keyframes animate{
-	from{background: rgba(211,131,18, 0.8);}
+	from{background: rgba(211,131,18, 0.9);}
 }

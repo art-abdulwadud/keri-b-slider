@@ -28,7 +28,7 @@ activateSlide(slideIndex)
 const slideMove = slide => {
 	activateSlide(slideIndex += slide)
 };
-// Function manually selecting a slide on click
+// Function for manually selecting a slide on click
 const selectSlide = slide => {
 	activateSlide(slideIndex = slide)
 }
