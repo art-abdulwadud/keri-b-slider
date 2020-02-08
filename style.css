@@ -14,14 +14,16 @@ body{
 	color: orange;
 	border-radius: 5px;
 }
-.slide{
+.slider{
 	position: relative;
+}
+.slide{
 	width: 100%;
 	height: 85vh;
-	display: grid;
+	display: none;
 	grid-template-rows: auto;
 	grid-template-columns: auto;
-	grid-template-areas: "whole"
+	grid-template-areas: "whole";
 }
 .overlay{
 	background: rgba(168,50,121, 0.4);
