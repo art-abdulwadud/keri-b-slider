@@ -11,7 +11,7 @@ body{
 	font-family: 'Lemonada', cursive;
 	font-size: calc(110% + 4vh);
 	border: 1px solid transparent;
-	color: #D38312;
+	color: orange;
 	border-radius: 5px;
 }
 .slide{
@@ -24,7 +24,7 @@ body{
 	grid-template-areas: "whole"
 }
 .overlay{
-	background: rgba(211,131,18, 0.4);
+	background: rgba(168,50,121, 0.4);
 	grid-area: whole;
 	width: 100%;
 	height: 100%;
@@ -48,3 +48,15 @@ body{
 	font-size: calc(110% + 1vh);
 	z-index: 2;
 }
+.previous, .next{
+	position: absolute;
+	top: 50%;
+	text-decoration: none;
+	font-size: calc(110% + 1vh);
+	color: white;
+	background: #D38312;
+	padding: 5px;
+}
+.previous:hover, .next:hover{color: white; background: rgba(0,0,0,0.5)}
+.previous{ left: 5px;}
+.next{ right: 5px;}
