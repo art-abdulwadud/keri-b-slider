@@ -73,3 +73,15 @@ body{
 .active{
 	color: white;
 }
+.animate{
+	-webkit-animation: animate 2s;
+	-o-animation: animate 2s;
+	animation: animate 2s;
+}
+
+@-webkit-keyframes animate{
+	from{background: rgba(211,131,18, 0.8);}
+}
+@keyframes animate{
+	from{background: rgba(211,131,18, 0.8);}
+}
