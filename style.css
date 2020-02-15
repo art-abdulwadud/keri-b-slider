@@ -14,9 +14,6 @@ body{
 	color: orange;
 	border-radius: 5px;
 }
-.slider{
-	position: relative;
-}
 .slide{
 	width: 100%;
 	height: 85vh;
