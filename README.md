@@ -4,7 +4,7 @@ Only a few things to be done for you to create a simple image slider:
 
 ## Add images
 In the HTML section, we'll create `div` container with the classname `slider`. Within our container, we'll add a couple of images, each in it's own `div` and  Within this `div`, we can also add some text and overlay. We'll then add buttons for selecting previous and next image within the container.
-```
+```xml
         <div class="slider m-1 text-center">
             <div class="slide">
                 <div class="overlay animate"></div>
@@ -37,7 +37,7 @@ In the HTML section, we'll create `div` container with the classname `slider`. W
         </div>
 ```
 You can create a link for each slider(optional)
-```
+```xml
 <div class="links-wrapper text-center">
     <button class="slide-links" onclick="selectSlide(1)"><i class="material-icons">face</i></button>
     <button class="slide-links" onclick="selectSlide(2)"><i class="material-icons">face</i></button>
@@ -53,7 +53,7 @@ Then we'll set the display of the slide `div` to none to hide all the images bec
 ```
 We'll create a function for activating the slides, one at a time. This will change the slide selected from 
 `display: none` to `display:grid`
-```
+```javascript
 let allSlides = document.querySelectorAll('.slide');
 let slideLinks = document.querySelectorAll('.slide-links');
 // This function activates the selected slide
@@ -75,12 +75,12 @@ const activateSlide = slide => {
 }
 ```
 After this, we now need to activate the slider, allowing one slide to be viewed when page loads.
-```
+```javascript
 // Activating the first slide on load
 activateSlide(slideIndex)
 ```
 Finally, the previous and next button functions need to be created
-```
+```javascript
 let prev = document.querySelector('.previous');
 let next = document.querySelector('.next');
 // Function for moving either to next or previous image
