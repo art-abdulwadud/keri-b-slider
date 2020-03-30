@@ -81,8 +81,6 @@ activateSlide(slideIndex)
 ```
 Finally, the previous and next button functions need to be created
 ```javascript
-let prev = document.querySelector('.previous');
-let next = document.querySelector('.next');
 // Function for moving either to next or previous image
 const slideMove = slide => {
 	activateSlide(slideIndex += slide)
